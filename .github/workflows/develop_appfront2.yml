@@ -34,6 +34,9 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_B1FDFB8AAAEF4EBEA537F418DDB5A803 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5CC47D502024455C91D651010AF23942 }}
 
+      - name: List dist contents
+        run: ls -l ./dist
+
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
