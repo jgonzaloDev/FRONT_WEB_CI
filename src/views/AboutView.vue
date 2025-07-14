@@ -150,8 +150,8 @@
   	import axios from 'axios'
 	import readXlsFile from 'read-excel-file'
 	//import { alumnos } from '@/api/alumnos'
-	const baseUrl = import.meta.env.VITE_ENDPOINT_BACKEND
-	const alumnos = baseUrl
+	//const baseUrl = import.meta.env.VITE_ENDPOINT_BACKEND
+	const alumnos = "https://apibackenddojo.azurewebsites.net/alumnos"
 	let modalInstance = null;
 
 	export default {
