@@ -151,7 +151,7 @@
 	import readXlsFile from 'read-excel-file'
 	//import { alumnos } from '@/api/alumnos'
 	//const baseUrl = import.meta.env.VITE_ENDPOINT_BACKEND
-	const alumnos = "https://apibackenddojo.azurewebsites.net/alumnos"
+	const alumnos = "https://app-dojo.com/alumnos"
 	let modalInstance = null;
 
 	export default {
